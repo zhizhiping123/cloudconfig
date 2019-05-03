@@ -1,0 +1,15 @@
+server:
+  port: 8810
+  servlet:
+    application-display-name: base
+spring:
+  application:
+    name: base
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9098/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
