@@ -15,4 +15,4 @@ eureka:
     fetch-registry: true
   instance:
     prefer-ip-address: true
-name: zhang123    
+name: zhang12333    
