@@ -5,6 +5,8 @@ server:
 spring:
   application:
     name: base
+  rabbitmq:
+    host: 104.168.165.147  
 eureka:
   client:
     serviceUrl:
